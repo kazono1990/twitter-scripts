@@ -44,7 +44,7 @@ def get_follower_account_list(client, user_id):
             record = dict(id=account.id, name=account.name)
             followers.append(record)
     return followers
-            
+
 
 def detect_non_mutual_following_accounts(following_list, follower_list):
     non_mutual_following_account = []
